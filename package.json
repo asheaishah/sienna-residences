@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "nuxt": "^3.6.3"
+  },
+  "dependencies": {
+    "@gtm-support/vue-gtm": "^2.0.0",
+    "@nuxtjs/router": "^1.7.0",
+    "@vueuse/core": "^10.1.2",
+    "autoprefixer": "^10.4.14",
+    "axios": "^1.4.0",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "v-click-outside": "^3.2.0",
+    "vue-flatpickr-component": "^11.0.3",
+    "vue-friendly-iframe": "^0.20.0"
+  }
+}
